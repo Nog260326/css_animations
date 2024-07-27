@@ -47,6 +47,17 @@ html, body {
     animation-iteration-count: infinite;
 }
 
+.luigi {
+    position: absolute; 
+    top: 50px; 
+    left: 0;
+    animation-name: drive;
+    animation-duration: 5s;
+    animation-fill-mode: both; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+}
+
 @keyframes drive {
    from{transform: translateX(-200px)}
    to{transform: translateX(1700px)}
